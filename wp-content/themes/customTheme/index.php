@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <h1><?php echo bloginfo("name");?></h1>
 <p><?php echo bloginfo("description");?></p>
 
@@ -11,3 +13,5 @@ while(have_posts()) {
 <?php
 }
 ?>
+
+<?php get_footer(); ?>

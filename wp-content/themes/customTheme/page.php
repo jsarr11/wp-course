@@ -1,4 +1,7 @@
 <?php
+
+get_header();
+
 while(have_posts()) {
     the_post(); ?>
     <h1>This is a page, not a post man</h1>
@@ -7,4 +10,6 @@ while(have_posts()) {
     <hr>
     <?php
 }
+
+get_footer();
 ?>
