@@ -37,7 +37,10 @@
                         ));
                         ?>
 <!--                        <ul>-->
-<!--                            <li><a href="#">Legal</a></li>-->
+<!--                        or 0 -> looks at the current page-->
+<!--                        can replace 0 with "get_the_ID()"-->
+<!--                            16 may be the current page's id, saw it from pages-->
+<!--                            <li <?php if (is_page("legal") or wp_get_post_parent_id(0) == 16) echo "class='current-menu-item'" ?>><a href="#">Legal</a></li>-->
 <!--                            <li><a href="--><?php //echo site_url("/privacy-policy"); ?><!--">Privacy</a></li>-->
 <!--                            <li><a href="#">Careers</a></li>-->
 <!--                        </ul>-->
