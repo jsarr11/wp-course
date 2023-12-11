@@ -52,12 +52,13 @@ while(have_posts()) {
                 ?>
             </ul>
         </div>
+    <?php } ?>
 
         <div class="generic-content">
             <?php the_content(); ?>
         </div>
     </div>
-    <?php } ?>
+
 
 
     <div class="page-section page-section--beige">
